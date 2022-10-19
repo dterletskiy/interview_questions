@@ -69,7 +69,7 @@ int main( int argc, char *argv[ ] )
    IA* pA = new A(5);
    pA->print( );
    pA->print( 4 );
-   // pA->print( 4, 5 );
+   pA->print( 4, 5 );
    pA->print( "a" );
    pA->print( 4.5 );
 
